@@ -1,4 +1,4 @@
-// Marvin Bank — App shell: sidebar, header, notifications, active states, mobile nav.
+// PTB TBK — App shell: sidebar, header, notifications, active states, mobile nav.
 
 const NAV_ITEMS = [
   { label: 'Dashboard', icon: 'dashboard', href: 'dashboard.html' },
@@ -102,14 +102,14 @@ const AppShell = {
       return '<a href="' + it.href + '" class="' + active + '">' + icon(it.icon) + '<span>' + it.label + '</span></a>';
     }).join('');
     return '<aside class="sidebar" id="sidebar">' +
-      '<div class="brand"><img src="' + window.location.origin + window.location.pathname.replace(/[^/]*$/, '') + 'assets/logos/logo-light.svg" alt="Marvin Bank"></div>' +
+      '<div class="brand"><img src="' + window.location.origin + window.location.pathname.replace(/[^/]*$/, '') + 'assets/logos/logo-light.svg" alt="PTB TBK"></div>' +
       '<nav class="side-nav">' + items +
       '<div class="nav-label">Account</div>' +
       '<a href="profile.html"><span class="icon">' + ICONS.profile + '</span><span>Profile</span></a>' +
       '<a href="settings.html"><span class="icon">' + ICONS.settings + '</span><span>Settings</span></a>' +
       '<a href="#" id="nav-logout"><span class="icon">' + ICONS.logout + '</span><span>Log Out</span></a>' +
       '</nav>' +
-      '<div class="sidebar-foot">Marvin Bank<br>&copy; ' + new Date().getFullYear() + ' All rights reserved.</div>' +
+      '<div class="sidebar-foot">PTB TBK<br>&copy; ' + new Date().getFullYear() + ' All rights reserved.</div>' +
       '</aside>';
   },
 

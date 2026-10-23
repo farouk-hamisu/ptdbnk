@@ -1,4 +1,4 @@
-// Marvin Bank — Transactions module
+// PTB TBK — Transactions module
 (async function () {
   await AppShell.init({ title: 'Transactions' });
 

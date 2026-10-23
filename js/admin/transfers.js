@@ -1,4 +1,4 @@
-// Marvin Bank — Admin transfers module
+// PTB TBK — Admin transfers module
 (async function () {
   const admin = await AdminAuth.requireAuth();
   if (!admin) return;

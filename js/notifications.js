@@ -1,4 +1,4 @@
-// Marvin Bank — Notifications module
+// PTB TBK — Notifications module
 (async function () {
   await AppShell.init({ title: 'Notifications' });
   const user = Auth.user;

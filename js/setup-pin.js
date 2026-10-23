@@ -1,4 +1,4 @@
-// Marvin Bank — Security PIN setup / change for existing accounts.
+// PTB TBK — Security PIN setup / change for existing accounts.
 (function () {
   'use strict';
 

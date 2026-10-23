@@ -1,4 +1,4 @@
-// Marvin Bank — i18n runtime (English ↔ Hungarian ↔ Italian)
+// PTB TBK — i18n runtime (English ↔ Hungarian ↔ Italian)
 // ---------------------------------------------------------------
 // How it works:
 //   * Dictionaries: window.LOCALE_HU (js/locales/hu.js) and window.LOCALE_IT

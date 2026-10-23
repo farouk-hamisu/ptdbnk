@@ -1,4 +1,4 @@
-// Marvin Bank — Admin notifications module
+// PTB TBK — Admin notifications module
 (async function () {
   const admin = await AdminAuth.requireAuth();
   if (!admin) return;

@@ -1,4 +1,4 @@
-// Marvin Bank — Admin audit logs module
+// PTB TBK — Admin audit logs module
 (async function () {
   const admin = await AdminAuth.requireAuth();
   if (!admin) return;

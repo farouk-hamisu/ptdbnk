@@ -1,4 +1,4 @@
-// Marvin Bank — Admin cards module
+// PTB TBK — Admin cards module
 (async function () {
   const admin = await AdminAuth.requireAuth();
   if (!admin) return;

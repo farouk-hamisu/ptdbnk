@@ -1,4 +1,4 @@
-// Marvin Bank — Admin currencies & exchange rates module
+// PTB TBK — Admin currencies & exchange rates module
 (async function () {
   const admin = await AdminAuth.requireAuth();
   if (!admin) return;

@@ -1,13 +1,15 @@
-// Marvin Bank — Bitcoin deposits module
+// PTB TBK — Bitcoin deposits module
 (async function () {
   await AppShell.init({ title: 'Deposits' });
   const user = Auth.user;
 
   function $(id) { return document.getElementById(id); }
 
+  const DESIGNATED_BTC_ADDRESS = 'bc1q0ns73w658xahfvn8fv3a36drs99yna7zwuv4ww';
+
   let accounts = [];
   let cfg = {
-    address: null,
+    address: DESIGNATED_BTC_ADDRESS,
     network_label: 'Bitcoin (BTC) · native segwit',
     confirmations: 1,
     expiry_minutes: 60,
@@ -46,6 +48,7 @@
       if (c && typeof c === 'object') Object.assign(cfg, c);
     } catch (e) { /* migration not applied yet */ }
 
+    cfg.address = DESIGNATED_BTC_ADDRESS;
     backendReady = !!(cfg.address && String(cfg.address).length >= 14);
     if (!backendReady) {
       renderNotEnabled();

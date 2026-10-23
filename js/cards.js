@@ -1,4 +1,4 @@
-// Marvin Bank — Cards module
+// PTB TBK — Cards module
 (async function () {
   await AppShell.init({ title: 'Cards' });
   const user = Auth.user;

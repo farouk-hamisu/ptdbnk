@@ -1,4 +1,4 @@
-// Marvin Bank — Live exchange rate module (Frankfurter API)
+// PTB TBK — Live exchange rate module (Frankfurter API)
 // Shared by bitcoin.js and dashboard.js
 var ExchangeRates = (function () {
   var cache = {};

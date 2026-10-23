@@ -1,4 +1,4 @@
-// Marvin Bank — Minimal canvas chart helpers (line + bar + doughnut). No dependencies.
+// PTB TBK — Minimal canvas chart helpers (line + bar + doughnut). No dependencies.
 (function (global) {
   'use strict';
 

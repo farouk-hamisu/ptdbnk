@@ -1,4 +1,4 @@
-// Marvin Bank — International transfer module
+// PTB TBK — International transfer module
 (async function () {
   await AppShell.init({ title: 'International Transfer' });
   const user = Auth.user;

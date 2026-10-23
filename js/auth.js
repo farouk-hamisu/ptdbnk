@@ -1,4 +1,4 @@
-// Marvin Bank — Customer authentication (Supabase Auth)
+// PTB TBK — Customer authentication (Supabase Auth)
 // Handles login/register/forgot/reset/logout, session persistence, protected pages.
 
 const Auth = {

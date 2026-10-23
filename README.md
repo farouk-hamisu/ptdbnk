@@ -1,4 +1,4 @@
-# Marvin Bank — Online Banking Platform
+# PTB TBK — Online Banking Platform
 
 A full-featured online banking platform built with **vanilla HTML, CSS, and JavaScript** on the frontend and **Supabase** (PostgreSQL + Auth + Row Level Security) on the backend. No frontend frameworks, no build step.
 
@@ -57,8 +57,8 @@ const APP_CONFIG = {
 
 | Role | Email | Password |
 |------|-------|----------|
-| Customer | `demo@marvinbank.com` | `Demo@1234` |
-| Admin | `admin@marvinbank.com` | `Admin@123` |
+| Customer | `demo@ptbtbk.com` | `Demo@1234` |
+| Admin | `admin@ptbtbk.com` | `Admin@123` |
 
 The seed creates a demo customer with checking/savings/EUR accounts, transactions, cards, deposits, swaps, loans, and notifications.
 

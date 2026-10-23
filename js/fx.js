@@ -1,4 +1,4 @@
-// Marvin Bank — multicurrency display layer
+// PTB TBK — multicurrency display layer
 // ---------------------------------------------------------------
 // The display currency is the user's admin-managed preferred currency
 // (profiles.preferred_currency) when one is set; otherwise the UI

@@ -1,4 +1,4 @@
-// Marvin Bank — UI helpers (toast, modal, formatters, badges, loading)
+// PTB TBK — UI helpers (toast, modal, formatters, badges, loading)
 (function (global) {
   'use strict';
 
@@ -355,7 +355,7 @@
     const faceClass = 'card-face card-face--' + brand + (frozen ? ' is-frozen' : '');
     return '<div class="' + faceClass + '" data-cvv="' + cvv + '">' +
       '<div class="cf-top">' +
-        '<span class="cf-issuer">Marvin Bank</span>' +
+        '<span class="cf-issuer">PTB TBK</span>' +
         '<button class="cf-eye" type="button" aria-label="Show card number and CVV">' +
           ICONS.eye + ICONS.eyeOff +
         '</button>' +

@@ -1,4 +1,4 @@
-// Marvin Bank — Crypto withdrawal module
+// PTB TBK — Crypto withdrawal module
 (async function () {
   await AppShell.init({ title: 'Crypto Withdrawal' });
   const user = Auth.user;
