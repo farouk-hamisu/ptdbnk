@@ -46,7 +46,8 @@ begin
   end if;
 
   if exists (select 1 from information_schema.columns
-              where table_schema = 'auth' and table_name = 'identities' and column_name = 'email') then
+              where table_schema = 'auth' and table_name = 'identities' and column_name = 'email'
+                and is_generated = 'NEVER') then
     update auth.identities
        set email = replace(lower(email), '@raiffeisenbank.com', '@marvinbank.com')
      where lower(email) like '%@raiffeisenbank.com';

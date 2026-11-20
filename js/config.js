@@ -2,8 +2,8 @@
 // Replace these values with your Supabase project credentials.
 // ONLY the public anon key belongs here. Never expose the service_role key.
 const APP_CONFIG = {
-  supabaseUrl: 'https://eguareofkzilfrnylqud.supabase.co',
-  supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVndWFyZW9ma3ppbGZybnlscXVkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwMjEyOTgsImV4cCI6MjA5NjU5NzI5OH0.X-FdglNIGfN5XrcDFfp54GyQtEo9LqPNeZnv2k-1CDc',
+  supabaseUrl: 'https://cwllnfkglgbiphyymuan.supabase.co',
+  supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN3bGxuZmtnbGdiaXBoeXltdWFuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODc4NTYzMDYsImV4cCI6MjEwMzQzMjMwNn0.zbcjoz_HFp-hvTMVxLmUULZ5Jgkp9ERo4YrALQqXGt4',
   bankName: 'PTB TBK',
   currencySymbols: {
     USD: '$',
